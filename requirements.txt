@@ -1,0 +1,17 @@
+V1 Requirements
+(x) Create an svg element.
+(x) append a group element to it
+(x) Create a margin object and have each property, top, left, bottom, and right equal to 20
+(x) apply the width of 800px to svg and 450px height.
+(x) apply a width of 800px - margin.left - margin.right to the width of group and 450px - margin.top - margin.bottom to the height.
+(x) apply transform/ translate margin.top, margin.left to the group element
+(x) apply an id attribute chart to the svg
+
+V2 Requirements
+(x) Use ajax to retrieve the data
+(x) Use map to put the GDP data into it's own array
+(x) create a set of rect elements corresponding to the amount of data, and give it a .bar class
+(x) create an x variable, have it scale perfectly to the width of the group depending on how much data there is
+(x) create a y variable and have each bar scale perfectly to fit proportionally to the height of the group
+(x) use the x and y functions to graph the bar data for the x, y, width, and height for each bar
+(x) have the group's class be display
